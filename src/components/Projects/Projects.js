@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Resume from "../../Assets/Projects/Resume.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import EDS from "../../Assets/Projects/EDS.png";
 import landing from "../../Assets/Projects/landing.png";
 import Loginp from "../../Assets/Projects/Loginp.png";
 import Meal from "../../Assets/Projects/Meal.png";
@@ -78,13 +78,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={EDS}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              description="In emergency situations, such as sudden cardiac arrest or other
+              critical medical events, immediate access to specialized medical
+              care can be a matter of life and death.This project is a revolutionary web development
+              project aimed at addressing the critical issue of accessing timely
+              medical assistance, particularly in emergency situations requiring
+              CPR specialists etc."
+              ghLink="https://github.com/CodeNova-Kumar/EDS"
+              demoLink="https://hover-delta-two.vercel.app/main/home" 
             />
           </Col>
         </Row>
